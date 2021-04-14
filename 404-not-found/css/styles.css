@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding-top: 160px;
+    display: flex;
+}
+
+#title{
+    height: 25px;
+    margin:40px 0 0 77px;
+    
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+    color: #333333;
+}
+.left{
+    flex:1;
+    display: flex;
+    justify-content: center;
+}
+img{
+    padding: 0 80px;
+    width: 100%; 
+    height: 100%;
+}
+.right{
+    flex:1;   
+}
+.news{
+    width: 80%;
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+}
+.description{
+    margin:40px 0px 0 0;
+    width: 50%;
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+}
+
+.btn{
+    width: 216px;
+    height: 68px;
+    margin-top:60px;
+    background-color: #333333;
+    cursor: pointer;
+}
+
+.btn > span{
+    width: 130px;
+    height: 21px;
+    
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer{ 
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    height: 17px;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #BDBDBD;
+}
+
+.btn{
+    margin-bottom: 20px;
+}
+@media (max-width:700px){
+   
+    .container{
+        margin: 0;
+        width: 100%;
+        flex-direction: column;
+        padding: 40px 0 0 0;
+    }
+    #title{
+        margin: 24px 0 0 20px;
+    }
+    .right{
+        margin-top: 40px;
+        padding: 0 0 0 20px;
+    }
+    .news{
+        width: 100%;
+        font-size: 48px;
+        line-height: 71px;
+    }
+    img{
+        width: 80%;
+    }
+    .description{
+        width: 70%;
+        font-size: 18px;
+        line-height: 27px;
+    }  
+}
