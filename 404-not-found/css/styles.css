@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 .container{
-    padding-top: 160px;
+    padding: 100px 0 80px 0;
     display: flex;
 }
 
@@ -46,7 +46,7 @@ img{
     letter-spacing: -0.035em;
 }
 .description{
-    margin:40px 0px 0 0;
+    margin:50px 0px 0 0;
     width: 50%;
     font-family: Space Mono;
     font-style: normal;
@@ -59,7 +59,7 @@ img{
 .btn{
     width: 216px;
     height: 68px;
-    margin-top:60px;
+    margin-top:80px;
     background-color: #333333;
     cursor: pointer;
 }
@@ -96,7 +96,7 @@ img{
 .btn{
     margin-bottom: 20px;
 }
-@media (max-width:700px){
+@media (max-width:480px){
    
     .container{
         margin: 0;
@@ -117,7 +117,7 @@ img{
         line-height: 71px;
     }
     img{
-        width: 80%;
+        width: 100%;
     }
     .description{
         width: 70%;
