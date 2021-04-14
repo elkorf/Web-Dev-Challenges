@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/elkorf/Web-Dev-Challenges/tree/master/404-not-found">
+    <a href="https://github.com/elkorf/Web-Dev-Challenges/tree/master/404-not-found/">
       Solution
     </a>
     <span> | </span>
@@ -57,5 +57,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [elkorf.com](https://{elkorf.com})
-- GitHub [elkorf](https://{github.com/elkorf})
+- Website [elkorf.com](https://elkorf.com)
+- GitHub [elkorf](https://github.com/elkorf)
