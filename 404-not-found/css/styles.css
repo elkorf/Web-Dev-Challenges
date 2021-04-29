@@ -25,6 +25,8 @@
 }
 .left{
     flex:1;
+    max-height: 500px;
+    min-width: 500px;
     display: flex;
     justify-content: center;
 }
@@ -62,6 +64,7 @@ img{
     margin-top:80px;
     background-color: #333333;
     cursor: pointer;
+    border: none;
 }
 
 .btn > span{
