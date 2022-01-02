@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 60%;
+    margin: 6rem auto 0;
+    /* display: flex; */
+    color: black;
+}
+.about{
+    display: flex;
+}
+.left{
+    flex: 1;
+}
+.left h1{
+    font-family: "PT Serif", serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+}
+.right{
+    flex:1;
+    padding-left: 3rem;
+}
+.right h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+}
+.right p{
+    margin:1rem 0;
+    width: 90%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+}
+.team img{
+    width: 75%;
+    margin: 0 auto;
+}
+.member:nth-child(3n-1){
+    margin-top: 64px; /* moves down 2nd and 5th team cards */
+}
+.team{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;  
+    margin: 5rem 0 0 0;
+}
+figcaption{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+.member{
+    position: relative;
+}
+
+.title{
+    font-family: "PT Serif", serif;
+    font-size: 0.625rem;
+    line-height: 0.828rem;
+    text-transform: uppercase;
+    writing-mode: vertical-lr;
+    position: absolute;
+    top: 0;
+    right: 4.5em;
+}
+.footer{
+    margin: 2rem 0 1rem 0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #A9A9A9;
+}
+
+@media (max-width: 900px) {
+    .container{
+        width: 100%;
+        margin: 4rem auto 0;
+        /* display: flex; */
+        color: black;
+        /* background-color: red; */
+        max-width: 375px; /* as per figma design */
+        /* margin: 0 auto; */
+    }
+    .about{
+        display: block;
+        /* background-color: green; */
+    }
+    .right{
+        padding-left: 0;
+        margin-top: 2rem;
+    }
+    .right p{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .team img{
+        width: 80%;
+    }
+    .team{
+        display: grid;
+        grid-template-columns: 1fr 1fr;  
+        margin: 4rem 0 0 .5rem;
+    }
+    .member:nth-child(3n-1) {
+        margin-top: 0; /* moves down 2nd and 5th team cards */
+    }
+    .member:nth-child(even){
+        margin-top: 64px; 
+    }
+    figcaption{
+        font-size: .5rem;
+        line-height: 1rem;
+    }
+    .title{
+        right:2.6em;
+    }
+}
